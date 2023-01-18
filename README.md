@@ -2,11 +2,12 @@
 A snakemake script to download ncbi genomes, gather them to a directory and discompress.
 
 ## Purpose
-The main purpose of this snakemake script is to download the genome files in fasta.gz format for the specified species from the NCBI database,using the ncbi-genome-download software. 
+The main purpose of this snakemake script is to download the genome files in fasta.gz format for the specified species from the NCBI database, using the ncbi-genome-download software. 
 Then the fasta.gz files were all put together in one folder and decompressed using pigz software to obtain fasta files for the next step of analysis.
 
 ## Dependences
-The main dependences are snakemake, pigz and ncbi-genome-download.You can create a environment using the **ncbi_download.yaml** file by:
+The main dependences are snakemake, pigz and ncbi-genome-download.
+You can create a environment using the **ncbi_download.yaml** file by:
 ```
 conda env create -f ncbi_download.yaml
 ```
