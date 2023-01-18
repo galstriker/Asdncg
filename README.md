@@ -13,10 +13,13 @@ conda env create -f ncbi_download.yaml
 This will create an environment containing all softwares required.
 
 ## Usage
-Just open the .smk file with a editor like notepad++，change line 2 the origanism you want to download.Such as:
+Just open the .smk file with a editor like notepad++，change line 2 the origanism you want to download.
+
+Such as:
 `
 organism="Bifidobacterium thermophilum"
 `
+
 Create a .txt file name **start_down.txt** where you put the script.Then type the following command:
 ```
 snakemake -s ncbi_down_new2.smk -c 4
