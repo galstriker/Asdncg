@@ -1,4 +1,4 @@
-# auto_ncbi_download
+# Asdncg
 A snakemake script to download ncbi complete genome files, gather them to a directory and discompress.
 
 ## Purpose
