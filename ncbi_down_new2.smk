@@ -35,7 +35,7 @@ rule get:
 		find . -iname "*.gz" -type f -exec cp {{}} fna/ \;
 		touch getfnacomplete.txt
 		"""
-#use pigz to discompress the fna files.
+#use pigz to discompress the fna.gz files.
 rule discompress:
 	input:
 		"complete/refseq/bacteria/getfnacomplete.txt"
