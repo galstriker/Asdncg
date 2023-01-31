@@ -6,7 +6,7 @@ The main purpose of this snakemake script is to download the complete genome fil
 Then the fasta.gz files were all put together in a folder and decompressed using pigz to obtain fasta files for the next step of analysis.
 
 ## Dependences
-The main dependences are [snakemake](https://github.com/snakemake/snakemake), [pigz](https://github.com/madler/pigz) and [ncbi-genome-download](https://github.com/kblin/ncbi-genome-download).
+The main dependences are  [ncbi-genome-download](https://github.com/kblin/ncbi-genome-download), [snakemake](https://github.com/snakemake/snakemake) and [pigz](https://github.com/madler/pigz).
 You can create a environment using the **ncbi_download.yaml** file by:
 ```
 conda env create -f ncbi_download.yaml
@@ -26,7 +26,8 @@ Create a .txt file name **start_down.txt** where you put the script.Then type th
 snakemake -s ncbi_down_new2.smk -c 4
 ```
 
-##More
+## More
+
 If you want to learn more about downloading genomes data, please visit the page of this script's main dependence.
-[ncbi-genome-download](https://github.com/kblin/ncbi-genome-download).
+[ncbi-genome-download](https://github.com/kblin/ncbi-genome-download). 
 
