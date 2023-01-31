@@ -26,4 +26,7 @@ Create a .txt file name **start_down.txt** where you put the script.Then type th
 snakemake -s ncbi_down_new2.smk -c 4
 ```
 
-##
+##More
+If you want to learn more about downloading genomes data, please visit the page of this script's main dependence.
+[ncbi-genome-download](https://github.com/kblin/ncbi-genome-download).
+
