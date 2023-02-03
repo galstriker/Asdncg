@@ -23,7 +23,7 @@ organism="Bifidobacterium thermophilum"
 
 Create a .txt file name **start_down.txt** where you put the script.Then type the following command:
 ```
-snakemake -s ncbi_down_new2.smk -c 4
+snakemake -s Asdncg.smk -c 4
 ```
 
 ## More
