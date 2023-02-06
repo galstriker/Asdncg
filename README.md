@@ -1,5 +1,5 @@
 # Asdncg
-A snakemake script to download ncbi complete genome files, gather them to a directory and discompress.
+A snakemake script to download ncbi complete genome files, gather them to a directory and discompress them to obtain fasta format files.
 
 ## Purpose
 The main purpose of this small snakemake script is to download the complete genome files in fasta.gz format for the specified species from the NCBI Refseq database, using the ncbi-genome-download software. 
