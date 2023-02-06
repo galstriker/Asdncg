@@ -2,7 +2,7 @@
 A snakemake script to download ncbi complete genome files, gather them to a directory and discompress.
 
 ## Purpose
-The main purpose of this snakemake script is to download the complete genome files in fasta.gz format for the specified species from the NCBI Refseq database, using the ncbi-genome-download software. 
+The main purpose of this small snakemake script is to download the complete genome files in fasta.gz format for the specified species from the NCBI Refseq database, using the ncbi-genome-download software. 
 Then the fasta.gz files were all put together in a folder and decompressed using pigz to obtain fasta files for the next step of analysis.
 
 ## Dependences
