@@ -7,6 +7,7 @@ rule all:
 		"download_complete.txt",
 		"complete/refseq/bacteria/getfnacomplete.txt",
 		"complete/refseq/bacteria/fna/discompresscomplete.txt"
+
 #download the fna flies of the organism you gave.
 rule download:
 	input:
@@ -22,7 +23,8 @@ rule download:
 		ncbi-genome-download bacteria -F fasta -l {params.l} -g "{params.O}" -o {params.outdir} -p 5 -r 5
 		touch download_complete.txt
 		"""
-#gather the fna files to fna/ directory.
+
+#gather the fna.gz files to fna/ directory.
 rule get:
 	input:
 		"download_complete.txt"
@@ -35,6 +37,7 @@ rule get:
 		find . -iname "*.gz" -type f -exec cp {{}} fna/ \;
 		touch getfnacomplete.txt
 		"""
+
 #use pigz to discompress the fna.gz files.
 rule discompress:
 	input:
