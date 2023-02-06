@@ -27,7 +27,7 @@ Such as:
 organism="Bifidobacterium thermophilum"
 `
 
-Create a .txt file name **start_down.txt** where you put the script.Then type the following command:
+Create a .txt file name **start_down.txt** where you put the script. Then type the following command:
 ```
 snakemake -s Asdncg.smk -c 4
 ```
