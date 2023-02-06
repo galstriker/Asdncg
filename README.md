@@ -12,6 +12,11 @@ You can create a environment using the **ncbi_download.yaml** file by:
 conda env create -f ncbi_download.yaml
 ```
 This will create an environment containing all softwares required.
+To activate this environment, type:
+
+```
+source activate ncbidownload
+```
 
 ## Usage
 Just open the .smk file with a editor like notepad++，change line 2 the origanism to which you want to download.
