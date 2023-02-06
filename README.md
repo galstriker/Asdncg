@@ -22,6 +22,7 @@ source activate ncbidownload
 Just open the .smk file with a editor like notepad++，change line 2 the origanism to which you want to download.
 
 Such as:
+
 `
 organism="Bifidobacterium thermophilum"
 `
