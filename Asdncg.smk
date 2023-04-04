@@ -32,6 +32,7 @@ rule get:
 		"complete/refseq/bacteria/getfnacomplete.txt"
 	shell:
 		"""
+		rm download_complete.txt
 		cd complete/refseq/bacteria/
 		mkdir fna
 		find . -iname "*.gz" -type f -exec cp {{}} fna/ \;
