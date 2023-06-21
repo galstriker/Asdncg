@@ -47,6 +47,7 @@ rule discompress:
 		"complete/refseq/bacteria/fna/discompresscomplete.txt"
 	shell:
 		"""
+		rm getfnacomplete.txt
 		cd complete/refseq/bacteria/fna/
 		pigz -d *.gz
 		touch discompresscomplete.txt
