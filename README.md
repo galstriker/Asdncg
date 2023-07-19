@@ -36,4 +36,4 @@ snakemake -s Asdncg.smk -c 4 --jobs 1
 
 If you want to learn more about downloading genomes data, please visit the page of this script's main dependence.
 [ncbi-genome-download](https://github.com/kblin/ncbi-genome-download). 
-
+Thanks.
